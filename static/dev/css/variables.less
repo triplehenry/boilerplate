@@ -1,0 +1,116 @@
+// Colors
+// --------------------------------------------------
+
+@main-green: #57B348;
+@main-blue: #00779D;
+@main-yellow: #FEE735;
+@main-purple: #97256F;
+@main-orange: #E16326;
+@main-red: #FF3B30;
+@main-gray: #454C53;
+@main-light-gray: #ccc;
+@main-brown: #805E5E;
+@main-crimson: #b80b0e;
+
+// button
+@button-green: #99BD62;
+@button-green-text: #FAFCF8;
+@button-green-hover: darken(@button-green, 10%);
+
+// background
+@bg-layout: #ECECEC;
+@bg-gray-layout: @main-gray;
+@bg-green: @button-green;
+
+@color-qb: @main-crimson;
+@color-rb: #7fa248;
+@color-wr: @main-blue;
+@color-te: @main-orange;
+@color-k: @main-purple;
+@color-def: @main-brown;
+
+@color-facebook: #496399;
+@color-linkedin: #1777a6;
+@color-googleplus: #d94b3d;
+@color-facebook-hover: #2f4676;
+@color-linkedin-hover: #0c5a81;
+@color-googleplus-hover: #bb392c;
+
+// text
+@text: #444;
+@text-red: #AA112B;
+@text-blue: @main-blue;
+@text-orange: #F2A23C;
+@text-dark-blue: #54636D;
+@text-gray: #666666;
+
+// border
+@border-gray: #E3E3E3;
+
+// link
+@link: #4083A9;
+
+// fonticon
+@icon-color: #666;
+@icon-color-hover: #333;
+
+// Font
+// --------------------------------------------------
+@font: 'HelveticaNeueLT-Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Image path
+// --------------------------------------------------
+@logo-path: "/static/img/sprite/single/blitz_logo.png";
+@logo-sm-path: "/static/img/sprite/single/blitz_logo_sm.png";
+@logo-2x-path: "/static/img/sprite/single/blitz_logo.png";
+@team-icons-small-path: "/static/img/sprite/single/nfl_team_logos_small.png";
+@landing-mockdraft-image: "/static/img/sprite/single/landing_mockdraft.png";
+@blitz-bg-web: "/static/img/sprite/single/blitz_bg_web.png";
+@blitz-app-logo: "/static/img/sprite/single/blitz_app_logo.png";
+@blitz-bg-mobile: "/static/img/sprite/single/blitz_bg_mobile.png";
+@blitz-iphone: "/static/img/sprite/single/screenshot/match_iphone_md.png";
+@ios-download: "/static/img/sprite/ios_download_big.png";
+@android-download: "/static/img/sprite/android_download_big.png";
+@app-download-button: "/static/img/sprite/button/app_download.png";
+
+@background-blitz-dark-sm: "/static/img/sprite/single/background/blitz_bg_darken_sm.png";
+@background-blitz-dark: "/static/img/sprite/single/background/blitz_bg_darken.png";
+
+@screenshot-game-sm: "/static/img/sprite/single/screenshot/game150x150.png";
+@screenshot-match-sm: "/static/img/sprite/single/screenshot/match150x150.png";
+@screenshot-chat-sm: "/static/img/sprite/single/screenshot/chat150x150.png";
+@screenshot-log-sm: "/static/img/sprite/single/screenshot/log150x150.png";
+@screenshot-lobby-sm: "/static/img/sprite/single/screenshot/lobby150x150.png";
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+// Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
+@screen-xs:                  480px;
+@screen-xs-min:              @screen-xs;
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+// Note: Deprecated @screen-sm and @screen-tablet as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+// Note: Deprecated @screen-md and @screen-desktop as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+// Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
